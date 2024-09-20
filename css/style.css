@@ -211,4 +211,12 @@ section.add-produto {
     .h2-adicionar-produto {
         padding: 5% 0;
     }
+    @media (max-width:445px) {
+    .imagem-do-produto {
+        width: 80%;
+    }
+    
+    .header {
+        width: auto;
+    }
 }
