@@ -57,7 +57,7 @@ section.add-produto {
 .h3-voltar h3 a {
     text-decoration: none;
     color: #fff;
-    font-size: 20px;
+    font-size: 1.5rem;
     font-weight: bold;
 }
 
@@ -148,19 +148,19 @@ section.add-produto {
     border-radius: 8px;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
     padding: 5px;
-    width: 100%;
+    width: 100%
 }
 
 /* Estiliza o ícone */
-.imagem-do-produto i {
-    margin-right: 10px;
+.imagem-do-produto button i {
+    margin-right: 40px;
 }
 
 /* Estiliza o campo de pesquisa */
-.search-input {
+.search-input-1 {
     border: none;
     padding: 9px 15px;
-    font-size: 16px;
+    font-size: 1rem;
     width: 100%;
     border-radius: 15px;
     outline: none;
@@ -186,4 +186,29 @@ section.add-produto {
 .btn button:hover {
     transform: scale(1.10);
     background-color: #4d4b4bbd;
+}
+
+.btn-img {
+    border: none;
+    padding: 9px 15px;
+    background-color: #fff;
+    font-size: 1rem;
+    font-weight: 600;
+    margin-left: 15px;
+    cursor:pointer
+}
+
+@media (max-width: 1489px) {
+    .imagem-nome-categoria {
+        flex-direction: column;
+        gap: 14px;
+    }
+
+    .button {
+        margin-top: 4%;
+    }
+
+    .h2-adicionar-produto {
+        padding: 5% 0;
+    }
 }
