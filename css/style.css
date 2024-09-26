@@ -211,12 +211,28 @@ section.add-produto {
     .h2-adicionar-produto {
         padding: 5% 0;
     }
-    @media (max-width:445px) {
-    .imagem-do-produto {
-        width: 80%;
+
+    .produto-container-nome {
+        width: 100%; 
     }
     
-    .header {
-        width: auto;
+    .produto-container-categoria {
+        width: 100%; 
+    }
+    
+    .produto-container-img {
+        width: 100%;
+    }
+    
+    .produto-container-titulo {
+        width: 100%;
+    }
+    
+    .produto-container-preço {
+        width: 100%;
+    }
+    
+    .produto-container-descrição {
+        width: 100%;
     }
 }
